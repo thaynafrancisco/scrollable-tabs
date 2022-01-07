@@ -1,8 +1,16 @@
 .scrtabs-tab-scroll-arrow.scrtabs-tab-scroll-arrow-left:before {
   content: "<";
+  font-size: 20px;
+  line-height: 1;
+  color: #000;
+  font-weight: bold;
 }
 .scrtabs-tab-scroll-arrow.scrtabs-tab-scroll-arrow-right:before {
     content: ">";
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    font-weight: bold;
 }
 a.nav-link {
   color: #000;
