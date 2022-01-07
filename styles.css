@@ -1,0 +1,17 @@
+/* prevent navigation from wrapping its items */
+.nav {
+    flex-wrap: nowrap;
+  }
+  
+  /* width of the tabs in carousel mode */
+  .nav-item {
+    max-width:33%;
+  }
+  
+  /* Custom colors for carousel navigation */
+  .scrtabs-tab-scroll-arrow.scrtabs-tab-scroll-arrow-left:before {
+    content: "<";
+}
+.scrtabs-tab-scroll-arrow.scrtabs-tab-scroll-arrow-right:before {
+    content: ">";
+}
